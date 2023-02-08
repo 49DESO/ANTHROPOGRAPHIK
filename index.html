@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+    <script src="jquery-3.5.1.min.js"></script>
+  
+
+   <header>
+
+    <div>
+        <img src="img_5_1533104651_c81e728d9d4c2f636f067f89cc14862c.jpeg" alt="" width="60">
+        <div class="download">Download <button> Download </button> </div>
+     </div>
+
+     
+  
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.0/FileSaver.min.js"></script>
+ 
+ <script>let btnDownload = document.querySelector('button');
+ let img = document.querySelector('img');
+  
+  
+ // Must use FileSaver.js 2.0.2 because 2.0.3 has issues.
+ btnDownload.addEventListener('click', () => {
+     let imagePath = img.getAttribute('src');
+     let fileName = getFileName(imagePath);
+     saveAs(imagePath, fileName);
+ });
+  
+ function getFileName(str) {
+     return str.substring(str.lastIndexOf('/') + 1)
+ }
+ </script>
+
+
+
+
+
+
+<h1>
+        ANTHROPOGRAPHIK
+</h1>
+<h2>
+    CHRONIQUES GRAPHIQUES POSIT
+    
+</h2>
+</header> 
+
+
+
+
+
+<div class="container">
+
+    <div class="chronique un hiddentxt">
+        <span class="hiddentxt"><a href = "https://upload.wikimedia.org/wikipedia/commons/8/8a/Banana-Single.jpg">element</a></span>
+        <span class="hiddenimg"><img src="img_5_1533104651_c81e728d9d4c2f636f067f89cc14862c.jpeg" width="500" /></span>
+
+
+
+        <div class="chiffre">01</div>
+            <div class="titre">  RACONTER LA CRISE CLIMATIQUE </div>
+            <div class="problematique"> <br> <br>
+                Comment la crise climatique est abordée et communiquée, à travers quelle stratégies de communication, quelles rhétoriques ? Quelles histoires racontés, sollicitent la prise de conscience de tout un chacun? Donne l’envie d’agir, provoque des changement à l’échelle individuelle et collective?  
+
+            </div>
+
+            
+    </div>
+
+
+    <div class="chronique deux">
+        <div class="chiffre">02</div>
+        <div class="titre">  CONNAÎTRE REPRÉSENTER PUBLIER LA NATURE</div>
+
+        <p>Click on the image to download it:<p>
+            <a href="SYSTEMA NATURAE.jpeg" download="SYSTEMA NATURAE">TELECHARGEMENT</a>
+
+
+        <div class="problematique"> <br> <br>
+            CONNAÎTRE LA NATURE, REPRÉSENTATON, CLASSIFICATION ET PUBLICATION DE LA FLORE.
+            POUR DES SYSTEME DE SAVOIRS TISSER DES  NOUVEAUX RÉCITS AVEC L’ENVIRONEMENT
+            
+        </div>
+</div>
+
+
+<div class="chronique trois">
+    <div class="chiffre">03</div>
+    <div class="titre">  DIFFUSER UN SAVOIR DANS LA 
+        CULTURE MAINSTREAM</div>
+    <div class="problematique"> <br> <br>
+        Comment la crise climatique est abordée et communiquée, à travers quelle stratégies de communication, quelles rhétoriques ? Quelles histoires racontés, sollicitent la prise de conscience de tout un chacun? Donne l’envie d’agir, provoque des changement à l’échelle individuelle et collective?  
+
+        
+    </div>
+</div>
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+
+// $(document).ready(function(){
+//   $("#textToggler").click(function(){
+//     $(".toggleText").toggle();
+//   });
+// });
+</script>
+
+</body>
+</html>

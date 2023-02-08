@@ -1,0 +1,96 @@
+@font-face {
+    font-family:authentic;
+    src: url(AUTHENTICSans-150.woff);
+    
+}
+@font-face {
+    font-family:mono;
+    src: url(RobotoMono-Regular.ttf);
+    
+}
+
+h1{ 
+    font-family: authentic;
+    margin-bottom: -2%;
+    font-size:  2.5em;
+    
+   
+}
+header{ 
+   height: 15vh;
+    margin: 0;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translateY(-50%);
+    transform: translateX(-50%);
+}
+
+h2{ padding-top: 0px;
+    margin-top: 0px;
+    font-family: mono;
+    font-size: 1em;
+    }
+
+.container{ 
+    position: absolute;
+    bottom: 0px;
+    width: 100vw;
+    height: 25%;
+    /* background-color: pink; */
+}
+
+.chiffre{ 
+    font-family: mono;
+    position: relative;
+    display: inline-block;
+    font-size: 0.5em;
+}
+.titre{ 
+    position: relative;
+    display: inline-block;
+    font-family: authentic;
+    font-size:  1em;
+
+}
+.problematique{
+    font-family: mono;
+    position: relative;
+    display: inline-block;
+    width: 40vw;
+    font-size: 0.5em;
+    margin-left: 1vw;
+
+}
+:hover.chronique{ 
+
+    background-color: blanchedalmond;
+}
+.chronique{ 
+    border-style: solid hidden hidden hidden ;
+  
+    border-width:0.05em; 
+    border-color: black;
+
+}
+
+/* .un:hover ~ .hiddenimg {
+    display: block;
+    position: absolute;
+      z-index: 2
+  } */
+
+  .hiddenimg {
+    display: none;
+  }
+  .hiddentxt:hover ~ .hiddenimg {
+    display: block;
+    position: absolute;
+      z-index: 2
+  }
+  .hiddentxt a {
+    color: #F00;
+    text-decoration: none;
+    z-index: 99;
+  }
+  img{ display: none;}
