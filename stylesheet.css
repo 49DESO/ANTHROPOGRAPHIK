@@ -1,0 +1,521 @@
+@font-face {
+    font-family:authentic;
+    src: url(AUTHENTICSans-150.woff);
+    
+}
+@font-face {
+    font-family:authenticregular;
+    src: url(AUTHENTICSans-130.woff);
+    
+}
+@font-face {
+    font-family:mono;
+    src: url(RobotoMono-Regular.ttf);
+    
+}
+
+::-webkit-scrollbar {
+  width: 2em;
+    
+  }
+
+.apropos{  font-family: authentic;
+            position: fixed;
+            right: 3vw;
+            top: 3vh;
+            text-transform: uppercase;
+
+
+}
+
+a{ display: inline;
+    color: black;
+    font-family: mono;
+    width: 3vw;}
+
+.lien{ 
+    position: relative;
+    background-color: burlywood;
+    width: 50vw;
+    z-index: 2;
+}
+
+h1{ position:absolute;
+    /* top: -60vh; */
+    font-family: authentic;
+    /* margin-bottom: -2%; */
+    font-size:  2.5em;
+ 
+    /* background-color: aliceblue; */
+   
+    
+   
+}
+h3{ position: relative;
+    font-family: authentic;
+    margin-bottom: -2%;
+    font-size:  2.5em;
+    /* background-color: aliceblue; */
+  text-align: center;
+    
+   
+}
+h4{ 
+
+    position: relative;
+    font-family: authentic;
+    margin-left: 32.5vw;
+    font-size: 2em;
+    /* background-color: aliceblue; */
+  /* text-align: ; */
+
+}
+header{ 
+   height: 15vh;
+    margin: 0;
+    position: relative;
+    top: -40vh;
+    left: 35%;      
+    /* transform: translateY(-50%);
+    transform: translateX(-50%); */
+    opacity: 1;
+   
+}
+
+.header{ 
+    height: 15vh;
+    margin: 0;
+    position: relative;
+    top: 0vh;
+    /* left: 35%;       */
+   /* transform: translateY(-50%);
+    transform: translateX(-50%);  */
+    opacity: 1;
+
+}
+
+.head{ 
+    position: fixed;
+    top: 0vh;
+    height: 3vh;
+    width: 100vw;
+    background-color:white;
+   
+}
+
+.subtitle{ 
+    font-family: authenticregular;
+    font-size: 0.5em;
+    display: inline-block;
+    margin-left: 9.5vw;
+
+
+}
+.anthropographik{ z-index: 1;
+    font-family: authentic;
+    font-size: 1em;
+    text-decoration: none;
+
+}
+.anthropographik:hover{ 
+    color: gainsboro;
+
+}
+
+h2{ padding-top: 0px;
+    margin-top: 0px;
+    font-family: mono;
+    font-size: 1.2em;
+
+    }
+.about{ 
+    z-index: 2;
+    position: relative;
+    margin: auto;
+    width: 70vw;
+    font-family: authenticregular;
+    font-size: 1em;
+    text-align: justify;
+  opacity: 0;
+    column-count: 2;
+    column-gap: 20px;
+   
+
+
+
+
+}
+
+.notsee{ opacity: 0;}
+.seen{ display: block;
+    opacity: 1;
+
+
+}
+/* .main{ 
+      -webkit-filter: blur(0px);
+}
+.blur{ 
+      -webkit-filter: blur(9px);
+} */
+.container{ 
+    position: absolute;
+    bottom: 0px;
+    width: 100vw;
+    height: 25%;
+    /* background-color: pink; */
+}
+
+.chiffre{ 
+    font-family: mono;
+    position: relative;
+    display: inline-block;
+    font-size: 0.5em;
+    vertical-align: top;
+}
+.titre{ 
+    position: relative;
+    display: inline-block;
+    font-family: authentic;
+    font-size:  1em;
+    vertical-align: top;
+
+}
+.problematique{
+    font-family: mono;
+    position: relative;
+    display: inline-block;
+    width: 50vw;
+    font-size: 0.6em;
+    margin-left: 1vw;
+    
+
+}
+:hover.chronique{ 
+    background-color: white;
+    /* background-color: blanchedalmond; */
+}
+.chronique{ 
+    border-style: solid hidden hidden hidden ;
+  
+    border-width:0.05em; 
+    border-color: black;
+    padding-top: 1vh;
+
+}
+
+/* .un:hover ~ .hiddenimg {
+    display: block;
+    position: absolute;
+      z-index: 2
+  } */
+
+  .hiddenimg {
+    display: none;
+  }
+  .hiddentxt:hover ~ .hiddenimg {
+    display: block;
+    position: absolute;
+      z-index: 2
+  }
+  
+  /* img{ display: none;} */
+
+  .no{ 
+
+    position: fixed;
+    top: -40vh;
+   left: 0vw;
+    z-index: -1;
+    display: none;
+     width: 100vw;
+
+
+
+
+  }
+  .nb{ 
+
+    position: fixed;
+    top: -35vh;
+   left:0vw;
+    z-index: -1;
+    display: none;
+     width: 100vw;
+
+
+
+
+  }
+  .na{ 
+
+    position: fixed;
+    top: -65vh;
+   left: 0vw;
+    z-index: -1;
+    display: none;
+     width: 100vw;
+
+
+
+
+  }
+
+
+  .yes{ 
+    display: block;
+
+  }
+  
+  /* DEUXIEME PAGE 
+  RACONTER LA CRISE CLIMATIQUE 
+  STYLESHEET */
+
+  .intro{ 
+    position: relative;
+    top: 100vh;
+    font-family: mono;
+    margin-left: 21.5vw;
+    font-size: 1em;
+    width: 50vw;
+    margin-bottom: 150vh;
+    /* padding-top: 6.5vh; */
+
+  }
+  .r{ 
+    padding-top: 4.5vh;
+
+  }
+  .s{ 
+    padding-top: 7.5vh;
+
+  }
+  
+  .w{ 
+   
+    padding-top: 180vh;
+    margin-bottom: 100vh;
+
+ 
+
+  }
+
+  
+
+.column{ 
+    
+
+position: relative;
+display: inline-block;
+width: 20vw;
+
+/* background-color: aliceblue; */
+/* height: 100vh; */
+align-items: start;
+
+}
+.imgxs{
+    width: 20vw;
+    display: block;
+    margin-bottom: 3vh;
+
+    
+}
+.imgxxs{
+    width: 10vw;
+    display: block;
+    margin-bottom: 3vh;
+}
+.imgs{
+
+    width: 27vw;
+    display: inline-block;
+    margin-left: 0.5vw;
+}
+
+.imgl{
+
+    width: 40vw;
+    display: block;
+    margin-bottom: 3vh;
+}
+.bigimg{ z-index: 2;
+    display: inline-block;
+
+}
+.paragraph{
+    vertical-align: top;
+    /* background-color: aliceblue; */
+/* top: 50vh; */
+position: relative;
+font-family: authenticregular;
+font-size: 0.9em;
+margin-left: 0.5vw;
+width: 50vw ;
+/* background-color: white; */
+z-index: 1;
+
+column-count: 2;
+column-gap: 20px;
+display: inline-block;
+text-justify: inter-character;
+vertical-align: top;
+
+}
+
+.legendes{
+    /* background-color: aliceblue; */
+    position: relative;
+    font-family: mono;
+    font-size: 0.5em;
+    width: 10vw;
+   
+    margin-left: 2em;
+    display: inline-block;
+    vertical-align: top;
+    /* text-align: justify;  */
+}
+
+.schema{ 
+
+    width: 100vw;
+}
+.liseuseimg{ 
+    margin-top: 25vh;
+    margin-left: 10vw;
+    margin-bottom: 25vh;
+}
+
+.mandatory-scroll-snapping {
+    scroll-snap-type: y mandatory;
+  }
+.box{ 
+    height: 100vh;
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+    /* background-color: fuchsia; */
+
+}
+.sliderbloc{    
+    height: 100vh;
+    
+     /* background-color: white;  */
+    scroll-snap-align: center;
+    /* border-bottom: 3px solid; */
+
+}
+
+
+
+.repro{ 
+    
+    position: relative;
+    max-height: 95vh;
+    display: inline-block;
+    margin-right: 1vw;
+}
+
+
+.slideshow {
+    display: flex;
+    /* gap: 12px; */
+    max-width: 73vw;
+    /* width: 73%; */
+   
+   
+    scroll-snap-type: x mandatory;
+    overflow-x: scroll;
+    scroll-padding: 30px;
+    margin-left: 1vw;
+    /* box-shadow: 0 15px 25px rgba(0, 0, 0, 0.1); */
+  }
+  .slideshow.repro {
+    display: flex;
+    flex: 0 0 100%;
+    flex-direction: column;
+    align-items: center;
+    /* padding: 30px; */
+   
+ 
+    scroll-snap-align: start;
+   
+
+
+
+
+
+
+  }
+  
+  .inside{
+    display: inline-block;
+  }
+  .rolo{
+    display: inline-block;
+    align-items: flex-start;
+  }
+
+
+
+  @media screen and (max-width: 1297px) {
+    body {
+      background-color: lightgreen;
+      
+    }
+    .h4{  font-size: 1.5em;
+
+    }
+    .paragraph{
+       
+    font-size: 0.8em;
+   
+    /* background-color: white; */
+    
+    column-gap: 10px;
+    
+    }
+
+
+  }
+
+  @media screen and (max-width: 997px) {
+    body {
+      background-color: pink;
+      
+    }
+    h4{  font-size: 1.7em;
+
+    }
+    .paragraph{
+       
+        font-size: 0.7em;
+        column-count: 2;
+        width: 57vw;
+
+    
+    }
+
+
+  }
+
+  @media screen and (max-width: 570px) {
+    body {
+      background-color: yellow;
+      
+    }
+    h4{  font-size: 1em;
+
+    }
+    .paragraph{
+       
+        font-size: 0.6em;
+        column-count: 1;
+
+    
+    }
+    .legendes{
+        font-size: 0.3;
+    }
+
+
+  }
